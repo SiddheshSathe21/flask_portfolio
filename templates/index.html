@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile web</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hidesidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill=white><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Siddhesh Sathe</a></li>
+            <li class="hide-on-mobile"><a href="#">Home</a></li>
+            <li class="hide-on-mobile"><a href="#">About</a></li>
+            <li class="hide-on-mobile"><a href="#">Contact</a></li>
+            <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill=white><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <section class="home">
+        <div class="home-text">
+            <h2>Siddhesh Sathe</h2>
+            <p class="heading2">A Computer Engineering <br>Diploma student | Learning & Building Every day</p>
+            <p class="sub-heading">Currently pursuing my diploma in computer engineering. I enjoy building simple websites, exploring programming, and learning new tools</p>
+        </div>
+        <div class="home-button">
+            <div class="aboutme"><button>Learn About me</button></div>
+            <div class="Contactme"><button>Contact me</button></div>
+        </div>
+    </section>
+    <section class="about">
+            <h2>About</h2>
+            <div class="line"></div>
+            <div class="about-text">
+            <h3>Who i am ?</h3>
+            <p>I'am a 2nd-year diploma student at Y. B. Patil polytechnic Akurdi, exploring web development and basic programming. I started coding because i love solving problems and building creative things.</p>
+            <h3>My skills</h3>
+            <div class="skills">
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"/>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                </div>
+            </div>
+            <h3>Tools i use</h3>
+            <div class="tools">
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" />
+                  </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                  </div>
+            </div>
+        </div>
+    </section>
+    <h2 class="main-contact-heading">Connect</h2>
+    <div class="line1"></div>
+    <section class="contact">
+        <div class="contact-container">
+            <div class="flex-columns">
+                <div class="contact-1">
+                    <div class="contact-text-1">
+                        <h2 class="heading-left">Contact</h2>
+                        <p class="sub-heading-left">Send me a message or reach out via links</p>
+                    </div>
+                </div>
+                <div class="contact-text-2">
+                    <div class="contact-links">
+                        <h2 class="heading-right">Reach Out</h2>
+                        <div class="links-flex">
+                            <a href="#" class="underline-link">
+                                <i class="envelope"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)"><path d="M3.73592 4.5C2.77726 4.5 2.00014 5.27724 2.00031 6.2359L2.00031 6.26829C2.01064 6.81904 2.28199 7.33272 2.732 7.65165L2.74287 7.65929L10.7131 13.2171C11.3897 13.689 12.2609 13.7479 12.9861 13.3941C13.0897 13.3435 13.1904 13.2845 13.287 13.2171L21.2569 7.65949C21.7225 7.33485 21.9999 6.8031 21.9998 6.23554C21.9997 5.27702 21.2229 4.5 20.2644 4.5H3.73592Z" fill="white"/><path d="M22.0001 8.96994L14.145 14.4475C12.8562 15.3462 11.1438 15.3462 9.85507 14.4475L2.00023 8.97012L2 17.25C2 18.4926 3.00736 19.5 4.25 19.5H19.75C20.9926 19.5 22 18.4926 22 17.25L22.0001 8.96994Z" fill="white"/></svg></i>
+                                siddheshsathe16@gmail.com
+                            </a>
+                            <a href="#" class="underline-link">
+                                <i class="telephone"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)"><path d="M8.44505 4.01545C7.69841 2.37284 5.54096 1.98162 4.2651 3.25746L3.1969 4.32559C2.67056 4.85191 2.39683 5.6117 2.53555 6.38117C2.90066 8.40653 3.60119 10.3839 4.63739 12.2237C5.45607 13.6773 6.48379 15.0442 7.71982 16.2802C8.95586 17.5163 10.3227 18.544 11.7764 19.3627C13.6162 20.3989 15.5936 21.0994 17.6189 21.4645C18.3884 21.6032 19.1482 21.3295 19.6745 20.8032L20.7427 19.735C22.0185 18.4592 21.6273 16.3017 19.9847 15.555L16.4179 13.9338C15.9032 13.6998 15.2898 13.646 14.734 13.7735C14.1735 13.902 13.5945 14.2368 13.2766 14.8569L11.841 17.6571C10.7543 16.9778 9.72637 16.1655 8.78048 15.2196C7.8346 14.2737 7.02225 13.2458 6.34302 12.1591L9.14316 10.7236C9.76326 10.4057 10.0981 9.82666 10.2266 9.26608C10.3541 8.71028 10.3003 8.09692 10.0663 7.58226L8.44505 4.01545Z" fill="white"/></svg></i>
+                                +91 7066696907
+                            </a>
+                            <a href="#" class="underline-link">
+                                <i class="map"><svg width="80" height="80" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)"><path d="M5.03125 10.392C5.03125 6.26528 8.3766 2.91992 12.5033 2.91992C16.63 2.91992 19.9754 6.26528 19.9754 10.392C19.9754 13.194 18.9108 15.7454 17.6454 17.7938C16.3778 19.8458 14.8791 21.441 13.9389 22.3454C13.139 23.1148 11.9045 23.1163 11.1026 22.3493C10.1581 21.4458 8.65084 19.8507 7.37569 17.7982C6.1028 15.7493 5.03125 13.1963 5.03125 10.392ZM9.50391 10.3906C9.50391 12.0475 10.8471 13.3906 12.5039 13.3906C14.1608 13.3906 15.5039 12.0475 15.5039 10.3906C15.5039 8.73377 14.1608 7.39062 12.5039 7.39062C10.8471 7.39062 9.50391 8.73377 9.50391 10.3906Z" fill="white"/></svg></i>
+                                At post kamshet Tal-maval dist pune
+                            </a>
+                        </div>
+                        <div>
+                          <h2 class="form-heading">Or Send me a message</h2>
+                          <form action="/submit" method="post">
+                            <div class="form">
+                                <div class="Name1"><input type="text" placeholder="Name" name="name"></div>
+                                <div class="Phone1"><input type="number"name="number" placeholder="Phone number"></div>
+                                <div class="Address1"><input type="text" name="address" id="" placeholder="address"></div>
+                                <div class="Email1"><input id="email_address" type="email" placeholder="Email" name="email"></div>
+                                <div class="Message1"><textarea name="message" id="" placeholder="Message" rows="5"></textarea></div>
+                                <div class="Submit1"><button type="submit">Submit</button></div>
+                            </div>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-row">
+            <a href="siddheshsathe16@gmail.com">                                <i class="envelope"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)"><path d="M3.73592 4.5C2.77726 4.5 2.00014 5.27724 2.00031 6.2359L2.00031 6.26829C2.01064 6.81904 2.28199 7.33272 2.732 7.65165L2.74287 7.65929L10.7131 13.2171C11.3897 13.689 12.2609 13.7479 12.9861 13.3941C13.0897 13.3435 13.1904 13.2845 13.287 13.2171L21.2569 7.65949C21.7225 7.33485 21.9999 6.8031 21.9998 6.23554C21.9997 5.27702 21.2229 4.5 20.2644 4.5H3.73592Z" fill="white"/><path d="M22.0001 8.96994L14.145 14.4475C12.8562 15.3462 11.1438 15.3462 9.85507 14.4475L2.00023 8.97012L2 17.25C2 18.4926 3.00736 19.5 4.25 19.5H19.75C20.9926 19.5 22 18.4926 22 17.25L22.0001 8.96994Z" fill="white"/></svg></i>
+            </a>
+            <a href="+917066696907">                                <i class="telephone"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)"><path d="M8.44505 4.01545C7.69841 2.37284 5.54096 1.98162 4.2651 3.25746L3.1969 4.32559C2.67056 4.85191 2.39683 5.6117 2.53555 6.38117C2.90066 8.40653 3.60119 10.3839 4.63739 12.2237C5.45607 13.6773 6.48379 15.0442 7.71982 16.2802C8.95586 17.5163 10.3227 18.544 11.7764 19.3627C13.6162 20.3989 15.5936 21.0994 17.6189 21.4645C18.3884 21.6032 19.1482 21.3295 19.6745 20.8032L20.7427 19.735C22.0185 18.4592 21.6273 16.3017 19.9847 15.555L16.4179 13.9338C15.9032 13.6998 15.2898 13.646 14.734 13.7735C14.1735 13.902 13.5945 14.2368 13.2766 14.8569L11.841 17.6571C10.7543 16.9778 9.72637 16.1655 8.78048 15.2196C7.8346 14.2737 7.02225 13.2458 6.34302 12.1591L9.14316 10.7236C9.76326 10.4057 10.0981 9.82666 10.2266 9.26608C10.3541 8.71028 10.3003 8.09692 10.0663 7.58226L8.44505 4.01545Z" fill="white"/></svg></i>
+            </a>
+            <a href="#">                                <i class="map"><svg width="80" height="80" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)"><path d="M5.03125 10.392C5.03125 6.26528 8.3766 2.91992 12.5033 2.91992C16.63 2.91992 19.9754 6.26528 19.9754 10.392C19.9754 13.194 18.9108 15.7454 17.6454 17.7938C16.3778 19.8458 14.8791 21.441 13.9389 22.3454C13.139 23.1148 11.9045 23.1163 11.1026 22.3493C10.1581 21.4458 8.65084 19.8507 7.37569 17.7982C6.1028 15.7493 5.03125 13.1963 5.03125 10.392ZM9.50391 10.3906C9.50391 12.0475 10.8471 13.3906 12.5039 13.3906C14.1608 13.3906 15.5039 12.0475 15.5039 10.3906C15.5039 8.73377 14.1608 7.39062 12.5039 7.39062C10.8471 7.39062 9.50391 8.73377 9.50391 10.3906Z" fill="white"/></svg></i>
+            </a>
+        </div>
+        <p class="text-center">@2025 Siddhesh Sathe</p>
+    </footer>
+</body>
+</html>
